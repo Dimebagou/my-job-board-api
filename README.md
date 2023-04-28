@@ -26,7 +26,7 @@
   
   <p>Start the server by running <code>npm start</code>.</p>
   
-  <p>You can now access the API at <code>http://localhost:&lt;port_number&gt;/api/job-offers</code>.</p>
+  <p>You can now access the API at <code>http://localhost:8080/api/job-offers</code>.</p>
   
   <h2>Endpoints</h2>
   
