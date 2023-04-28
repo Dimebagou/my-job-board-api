@@ -22,8 +22,7 @@
     <li>Create a <code>.env</code> file in the root directory of the project and add the following environment variables:</li>
   </ol>
   
-  <pre><code>MONGO_URI=&lt;your_mongodb_uri&gt;
-PORT=&lt;port_number&gt;</code></pre>
+  <pre><code>MONGODB_URL=&lt;your_mongodb_url&gt;</code></pre>
   
   <p>Start the server by running <code>npm start</code>.</p>
   
