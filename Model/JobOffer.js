@@ -1,6 +1,6 @@
-const moongose = require("mongoose");
+const mongoose = require("mongoose");
 
-const JobOfferSchema = new moongose.Schema({
+const JobOfferSchema = new mongoose.Schema({
     company: {
         type: String,
         required: true,
@@ -63,4 +63,4 @@ const JobOfferSchema = new moongose.Schema({
     }
 })
 
-module.exports = moongose.model("JobOffer", JobOfferSchema);
+module.exports = mongoose.model("JobOffer", JobOfferSchema);

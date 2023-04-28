@@ -5,12 +5,12 @@ router.get("/", (req, res) => {
     res.send("Let's build a CRUD API!");
 });
 
-router.get('/search', searchJobOffers);
-router.get("/job-offers", getJobOffers);
-router.get("/job-offers/:id", getOneJobOffer);
-router.post("/job-offers", createJobOffer);
-router.put("/job-offers/:id", updateJobOffer);
-router.delete("/job-offers/:id", deleteJobOffer);
+router.get('/api/search', searchJobOffers);
+router.get("/api/job-offers", getJobOffers);
+router.get("/api/job-offers/:id", getOneJobOffer);
+router.post("/api/job-offers", createJobOffer);
+router.put("/api/job-offers/:id", updateJobOffer);
+router.delete("/api/job-offers/:id", deleteJobOffer);
 
 
 
